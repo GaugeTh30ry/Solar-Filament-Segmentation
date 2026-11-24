@@ -1,1 +1,1 @@
-# Solar-Filament-Segemntation
+# Solar Filament Segmentation
