@@ -35,7 +35,6 @@ These exports have not been rerun end to end outside Kaggle. Saved outputs refle
 
 - The vanilla training export includes a saved `NameError` for `run_experiment`, even though that function appears in an earlier cell. A clean sequential run is needed to verify the current notebook.
 - The backbone experiments export includes a saved CUDA out-of-memory error during the SegFormer experiment.
-- The baseline inference export calls `extract_instances_hysteresis`, but its definition is not included in this snapshot. That function needs to be restored before the hysteresis submission path can run from a clean kernel.
 - The Surya notebook depends on the separately prepared code and weights described above.
 
 The initial upload preserves these research snapshots rather than silently changing the experiments or claiming they are fully reproducible.
