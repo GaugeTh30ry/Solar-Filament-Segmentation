@@ -1,0 +1,11 @@
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+kaggle.json
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+submission.csv
